@@ -3,7 +3,7 @@ import javax.swing.JButton;
 
 public class Weather extends JFrame {
 
-//    public String weatherURL = "http://api.openweathermap.org/data/2.5/weather?q=Wroc%C5%82aw&mode=xml&APPID=b98d901cc8d2e7d3c14c7e071e309871";
+    private String weatherURL = "http://api.openweathermap.org/data/2.5/weather?q=Wroc%C5%82aw&mode=xml&APPID=b98d901cc8d2e7d3c14c7e071e309871";
 
     public Weather(){
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
